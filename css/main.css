@@ -1,0 +1,162 @@
+
+.image {
+    position: relative;
+    width: 450px;
+    float: left;
+    margin: 10px;
+}
+
+/* IMAGE 1 */
+
+.layer1 {
+    display: block;
+    width: 100%;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay1 > * {
+    transform: translateY(200px);
+    transition: transform 0.5s;
+}
+
+.overlay1:hover > * {
+    transform: translateY(0);
+}
+
+.overlay1:hover {
+    opacity: 1;
+}
+
+.overlay1title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.overlay1text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* IMAGE 2 */
+
+.layer2 {
+    display: block;
+    width: 100%;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay2--blur {
+    backdrop-filter: blur(5px);
+}
+
+.overlay2 > * {
+    transform: translateY(200px);
+    transition: transform 0.5s;
+}
+
+.overlay2:hover > * {
+    transform: translateY(0);
+}
+
+.overlay2:hover {
+    opacity: 1;
+}
+
+.overlay2title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.overlay2text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* IMAGE 3 */
+
+.layer3 {
+    display: block;
+    width: 100%;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay3--primary {
+    background: #7D17DE;
+}
+
+.overlay3 > * {
+    transform: translateY(200px);
+    transition: transform 0.5s;
+}
+
+.overlay3:hover > * {
+    transform: translateY(0);
+}
+
+.overlay3:hover {
+    opacity: 1;
+}
+
+.overlay3title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.overlay3text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
